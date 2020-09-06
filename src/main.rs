@@ -4,7 +4,7 @@ use ggez_tuto::GameState;
 fn main() {
     let (context, event_loop) =
         &mut match ContextBuilder::new("first_game_ggez", "de Macedo Anthony")
-            .window_mode(WindowMode::default().dimensions(1920.0, 1080.0))
+            .window_mode(WindowMode::default().dimensions(1080.0, 720.0))
             .build()
         {
             Ok((context, event_loop)) => (context, event_loop),
