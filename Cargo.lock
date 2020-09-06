@@ -654,6 +654,7 @@ name = "ggez_tuto"
 version = "0.1.0"
 dependencies = [
  "ggez",
+ "serde_json",
 ]
 
 [[package]]
